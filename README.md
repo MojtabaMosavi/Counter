@@ -1,1 +1,1 @@
-# Counter that allows to increase, decrease or reset a count.
+# Counter that allows you to increase, decrease or reset a count.
