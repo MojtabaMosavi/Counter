@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 375px;
+  max-width: 1440px;
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #eee0cb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main section {
+  text-align: center;
+}
+
+.main section h2 {
+  font-size: 3em;
+  padding: 0.5em;
+}
+
+.main section .displayArea {
+  font-size: 4em;
+  text-align: center;
+  padding: 0.5em;
+}
+
+main section .btn {
+  padding: 0.5em;
+  margin: 1em 0.5em;
+  border-radius: 10px;
+  font-size: 1.2em;
+  border: 1px solid #848486;
+  transition: all 0.5s;
+}
+
+main section .btn:active,
+main section .btn:focus {
+  outline: none;
+}
+
+main section .btn:hover {
+  background: #000;
+  color: #fff;
+}
+
+.main section .positiveNumber {
+  color: green;
+}
+
+.main section .negativeNumber {
+  color: red;
+}
